@@ -3,6 +3,7 @@ $(document).ready(function() {
     var nameInput = $("input#name").val();
     var nicknameInput = $("input#nickname").val();
     var ageInput = $("input#age").val();
+    var animals = $("#animals").val();
 
     $(".name").text(nameInput);
     $(".nickname").text(nicknameInput);
